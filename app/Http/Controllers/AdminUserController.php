@@ -25,7 +25,7 @@ class AdminUserController extends Controller
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param Request $request
      * @return AdminUserCollection
      */
@@ -35,7 +35,7 @@ class AdminUserController extends Controller
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param $id
      * @return AdminUserResource
      */
@@ -45,7 +45,7 @@ class AdminUserController extends Controller
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param CreateOrUpdateRequest $request
      * @return Response
      */
@@ -63,7 +63,7 @@ class AdminUserController extends Controller
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param CreateOrUpdateRequest $request
      * @param $id
      * @return Response
@@ -87,7 +87,7 @@ class AdminUserController extends Controller
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param $id
      * @return Response
      */

@@ -20,7 +20,7 @@ class CreateOrUpdateRequest extends FormRequest
     /**
      * Get the validation rules that apply to the request.
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @return array
      */
     public function rules()

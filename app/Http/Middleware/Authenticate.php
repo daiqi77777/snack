@@ -10,7 +10,7 @@ use Spatie\Permission\Exceptions\UnauthorizedException;
 class Authenticate
 {
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param $request
      * @param \Closure $next
      * @return mixed

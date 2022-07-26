@@ -177,7 +177,7 @@ class SnackTableSeeder extends Seeder
     /**
      * Run the database seeds.
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @return void
      */
     public function run()
@@ -198,7 +198,7 @@ class SnackTableSeeder extends Seeder
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      */
     private function createdAdminUser()
     {
@@ -213,7 +213,7 @@ class SnackTableSeeder extends Seeder
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      */
     private function createPermission()
     {
@@ -226,7 +226,7 @@ class SnackTableSeeder extends Seeder
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      */
     private function createPermissionGroup()
     {
@@ -252,7 +252,7 @@ class SnackTableSeeder extends Seeder
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      */
     private function createRole()
     {
@@ -264,7 +264,7 @@ class SnackTableSeeder extends Seeder
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      */
     private function createMenu()
     {
@@ -323,7 +323,7 @@ class SnackTableSeeder extends Seeder
     }
 
     /**
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      */
     private function associateRolePermissions()
     {

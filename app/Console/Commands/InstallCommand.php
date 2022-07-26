@@ -24,7 +24,7 @@ class InstallCommand extends Command
     /**
      * Execute the console command.
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @return mixed
      */
     public function handle()

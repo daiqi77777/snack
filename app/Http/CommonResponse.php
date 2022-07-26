@@ -9,7 +9,7 @@ trait CommonResponse
     /**
      * 201
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param string $content
      * @return Response
      */
@@ -21,7 +21,7 @@ trait CommonResponse
     /**
      * 202
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @return Response
      */
     protected function accepted()
@@ -32,7 +32,7 @@ trait CommonResponse
     /**
      * 204
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @return Response
      */
     protected function noContent()
@@ -43,7 +43,7 @@ trait CommonResponse
     /**
      * 400
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param $message
      * @param array $headers
      * @param int $options
@@ -59,7 +59,7 @@ trait CommonResponse
     /**
      * 401
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param string $message
      * @param array $headers
      * @param int $options
@@ -75,7 +75,7 @@ trait CommonResponse
     /**
      * 403
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param string $message
      * @param array $headers
      * @param int $options
@@ -91,7 +91,7 @@ trait CommonResponse
     /**
      * 422
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param array $errors
      * @param array $headers
      * @param string $message
@@ -109,7 +109,7 @@ trait CommonResponse
     /**
      * 200
      *
-     * @author moell<moel91@foxmail.com>
+     * @author dq
      * @param array $data
      * @param array $headers
      * @param int $options
